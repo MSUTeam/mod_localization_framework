@@ -1,0 +1,32 @@
+::Localization.addLocs(::Localization.Language.English, {
+	"skill.HitFactors.Surrounded": "Surrounded",
+	"skill.HitFactors.HeightAdvantage": "Height advantage",
+	"skill.HitFactors.TargetOnBadTerrain": "Target on bad terrain",
+	"skill.HitFactors.OathOfWrath": "Oath of Wrath",
+	"skill.HitFactors.TooClose": "Too close",
+	"skill.HitFactors.HeightDisadvantage": "Height disadvantage",
+	"skill.HitFactors.OnBadTerrain": "On bad terrain",
+	"skill.HitFactors.ArmedWithShield": "Armed with shield",
+	"skill.HitFactors.Shieldwall": "Shieldwall",
+	"skill.HitFactors.Riposte": "Riposte",
+	"skill.HitFactors.FastAdaption": "Fast Adaption",
+	"skill.HitFactors.DistanceOf": "Distance of %distance%",
+	"skill.HitFactors.ResistanceRanged": "Resistance against ranged weapons",
+	"skill.HitFactors.ResistancePiercing": "Resistance against piercing attacks",
+	"skill.HitFactors.ImmuneToStun": "Immune to stun",
+	"skill.HitFactors.ImmuneToRoot": "Immune to being rooted",
+	"skill.HitFactors.ImmuneToDisarm": "Immune to being disarmed",
+	"skill.HitFactors.ImmuneToKnockBack": "Immune to being knocked back or hooked",
+	"skill.HitFactors.Nighttime": "Nighttime",
+
+	"skill.getDefaultTooltip.DamageDirect": "Inflicts [color=" + ::Const.UI.Color.DamageValue + "]%damage_direct_min%[/color] - [color=" + ::Const.UI.Color.DamageValue + "]%damage_direct_max%[/color] damage that ignores armor",
+	"skill.getDefaultTooltip.DamageRegularAndDirect": "Inflicts [color=" + ::Const.UI.Color.DamageValue + "]%damage_regular_min%[/color] - [color=" + ::Const.UI.Color.DamageValue + "]%damage_regular_max%[/color] damage to hitpoints, of which [color=" + ::Const.UI.Color.DamageValue + "]%damage_direct_min%[/color] - [color=" + ::Const.UI.Color.DamageValue + "]%damage_direct_max%[/color] can ignore armor",
+	"skill.getDefaultTooltip.DamageRegular": "Inflicts [color=" + ::Const.UI.Color.DamageValue + "]%damage_regular_min%[/color] - [color=" + ::Const.UI.Color.DamageValue + "]%damage_regular_max%[/color] damage to hitpoints",
+	"skill.getDefaultTooltip.DamageArmor": "Inflicts [color=" + ::Const.UI.Color.DamageValue + "]%damage_armor_min%[/color] - [color=" + ::Const.UI.Color.DamageValue + "]%damage_armor_max%[/color] damage to armor",
+	"skill.getDefaultTooltip.OathOfHonor": "[color=" + this.Const.UI.Color.NegativeValue + "]Can not be used because this character has taken an oath precluding the use of ranged weapons or tools[/color]",
+
+	"skill.getCostString": "[i]Costs [b][color=%color_AP%]%AP_cost% AP[/color][/b] to use and builds [b][color=%color_fatigue%]%fatigue_cost% Fatigue[/color][/b][/i]\n",
+
+	"slash.m.KilledString": "Cut down",
+	"slash.getTooltip.HitChance": "Has [color=" + this.Const.UI.Color.PositiveValue + "]+%hitchance%%[/color] chance to hit",
+});
